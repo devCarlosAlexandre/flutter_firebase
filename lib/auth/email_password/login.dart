@@ -16,6 +16,7 @@ class _LoginPageState extends State<LoginPage> {
     final credential = await FirebaseAuth.instance.signInWithEmailAndPassword(
         email: emailController.text, password: passwordController.text);
     final user = credential.user;
+    user?.updateDisplayName("Carlos Alexandre");
     if (user != null && !user.emailVerified) {
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
           content:
@@ -50,8 +51,7 @@ class _LoginPageState extends State<LoginPage> {
                 controller: passwordController,
                 decoration: const InputDecoration(label: Text("Password")),
               ),
-              ElevatedButton(
-                  onPressed: loginUser, child: const Text("Cadastrar Usuário"))
+              ElevatedButton(onPressed: loginUser, child: const Text("Login"))
             ],
           ),
         ),
