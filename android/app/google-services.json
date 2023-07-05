@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "161854462239",
+    "project_id": "firebas-example-adf",
+    "storage_bucket": "firebas-example-adf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161854462239:android:3a1b96d8396b848faa382a",
+        "android_client_info": {
+          "package_name": "br.edu.unibalsas.mylist.flutter_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161854462239-pkqsh8cc154ncv0n79eoff64jiiqkeol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.unibalsas.mylist.flutter_firebase",
+            "certificate_hash": "af087e0dca846f99dea1c1111fa207eb357b52e1"
+          }
+        },
+        {
+          "client_id": "161854462239-h6ppjd5edsvsvdreuepv2pf711v3tq9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY2lTRUVJV2qQkV7kPZbfWlky6jWmmH20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161854462239-h6ppjd5edsvsvdreuepv2pf711v3tq9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
